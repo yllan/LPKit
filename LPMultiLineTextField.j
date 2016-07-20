@@ -33,7 +33,6 @@ var CPTextFieldInputOwner = nil;
 @implementation LPMultiLineTextField : CPTextField
 {
     id          _DOMTextareaElement;
-    CPString    _stringValue;
     BOOL        _hideOverflow;
 }
 
